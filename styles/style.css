@@ -25,12 +25,28 @@
   margin: 0;
   width: 730px;
   height: 96px;
-  padding: 40px;
+  padding-left: 64px;
   font-size: 102px;
+  font-weight: bold;
 }
 
 .header__subtitle{
+  position: absolute;
+  z-index: 10;
+  width: 388px;
+  height: 25px;
+  bottom: 30px;
+  left: 64px;
+  font-size: 18px;
   
+}
+
+.link{
+  color:#2f80ed;
+  text-decoration: none;
+}
+.link:after {
+  content:'\2192';
 }
 
 .logo {
@@ -44,6 +60,23 @@ height: 32px;
   top:30px;
 }
 
+.header__main-illustration{
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right:0;
+  z-index:5;
+  }
+
+  .header__square-pic{
+    width: 568px;
+    height: 568px;
+    background-color: #2f80ed;
+    position: absolute;
+    top: 64px;
+    right:0;
+  }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
