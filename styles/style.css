@@ -153,8 +153,7 @@ line-height: 34px;
   flex-wrap: wrap;
   width:1100px;
   justify-content: space-between;
-  
-  
+   
 }
 
 .table__cell{
@@ -236,7 +235,7 @@ margin-top: 60px;
   right: -210px;
   height: 877px;
   width: 877px;
-  background-size: cover;
+ background-size: contain;
 
  }
 .section-title_theme_dark{
@@ -247,6 +246,7 @@ margin-top: 60px;
 }
 .table_theme_dark {
   color: white;
+  z-index: 1;
 }
 .table__cell_theme_dark {
   width: 200px;
@@ -304,10 +304,11 @@ margin-top: 60px;
 
 .logo_place_footer{
   background-image: url(../images/logo_place_footer.svg);
+  background-repeat: no-repeat;
   width: 228px;
   height: 32px;
-  background-size: cover;
-}
+
+ }
 .footer__column_content_info{
   margin: auto;
   
