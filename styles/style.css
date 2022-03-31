@@ -28,6 +28,7 @@
 	padding-left: 64px;
 	font-size: 102px;
 	font-weight: bold;
+  z-index: 10;
 }
 
 .header__subtitle {
