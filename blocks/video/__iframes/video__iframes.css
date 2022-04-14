@@ -2,4 +2,6 @@
     display: flex;
     position: relative;
     margin-top: 50px;
+    justify-content: center;
+    top: 40px;
 }
