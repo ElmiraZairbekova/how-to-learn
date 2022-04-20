@@ -7,6 +7,6 @@
 	display: flex;
 	align-items: center;
 	color: black;
-    overflow: hidden;
+	overflow: hidden;
 	/* выше установили ограничения для секции */
 }
